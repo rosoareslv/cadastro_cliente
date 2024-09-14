@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <style>
+        label { display: block;}
+        textarea, input { width: 400px;}
+    </style>
+</head>
+<body class="container">
+    <h1>Cadastro de clientes</h1>
+    <form action="http://localhost:81/api", method="POST">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome">
+        </div>
+        <div></div>
+            <label for="nome">CPF</label>
+            <input type="text" name="cpf">
+        </div>
+        <div></div>
+            <label for="nome">Data aniversario</label>
+            <input type="date" name="dataAniversario">
+        </div>
+
+        <div>
+            <button>Cadastrar</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
